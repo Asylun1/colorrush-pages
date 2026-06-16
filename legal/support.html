@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Rush — Support</title>
+  <meta name="description" content="Support and help for the Color Rush mobile game." />
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --panel: #14141d;
+      --text: #e8e8f0;
+      --muted: #9a9ab0;
+      --accent: #4db5ff;
+      --accent2: #b56bff;
+      --border: #24243a;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: radial-gradient(1200px 600px at 50% -10%, #161629 0%, var(--bg) 60%);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 22px 80px;
+    }
+    .brand {
+      display: inline-block;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      font-size: 14px;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 8px;
+    }
+    h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: -0.5px; }
+    .tagline { color: var(--muted); font-size: 16px; margin-bottom: 32px; }
+    h2 { font-size: 19px; margin: 34px 0 10px; }
+    p, li { color: #d3d3e0; font-size: 16px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      margin: 18px 0;
+    }
+    .contact-btn {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 13px 22px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 16px;
+      color: #06121f;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+    }
+    .contact-btn:hover { text-decoration: none; opacity: 0.92; }
+    .email { font-weight: 600; color: var(--text); }
+    .q { font-weight: 700; color: var(--text); margin: 18px 0 4px; }
+    ul { padding-left: 22px; }
+    footer {
+      margin-top: 48px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="brand">Color Rush</span>
+    <h1>Support</h1>
+    <div class="tagline">Need help, found a bug, or have a suggestion? We're glad to hear from you.</div>
+
+    <div class="card">
+      <h2 style="margin-top:0">Contact Us</h2>
+      <p>
+        The fastest way to reach us is by email. We read every message and typically reply
+        within <strong>1&ndash;2 business days</strong>.
+      </p>
+      <p class="email">jacobmarx91@gmail.com</p>
+      <a class="contact-btn" href="mailto:jacobmarx91@gmail.com?subject=Color%20Rush%20Support">Email Support</a>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="q">How do I play?</div>
+    <p>
+      Your ball rolls forward automatically. Tap and steer to match your ball's color to the
+      panels and gaps ahead &mdash; pass through matching colors and smash the rest. Hitting the
+      wrong color ends your run. Survive as long as you can to climb the score.
+    </p>
+
+    <div class="q">Is there any cost to play?</div>
+    <p>Color Rush is completely free to download and play.</p>
+
+    <div class="q">Is my high score saved?</div>
+    <p>
+      Yes &mdash; your high score and preferences are stored locally on your device. Note that
+      because nothing is tied to an account, your score does not transfer between devices and is
+      removed if you delete the app.
+    </p>
+
+    <div class="q">The game runs slowly or crashed. What should I do?</div>
+    <p>
+      Try fully closing and reopening the app, and make sure you're on the latest version from
+      the App Store. If the problem continues, email us with your device model and iOS version
+      and we'll look into it.
+    </p>
+
+    <div class="q">I have a feature idea.</div>
+    <p>We'd love to hear it! Send your suggestion to the email above.</p>
+
+    <h2>Privacy</h2>
+    <p>
+      Color Rush does not collect any personal data. You can read the full
+      <a href="privacy-policy.html">Privacy Policy here</a>.
+    </p>
+
+    <footer>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <span>&copy; 2026 asylun &middot; Color Rush</span>
+    </footer>
+  </div>
+</body>
+</html>
